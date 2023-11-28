@@ -1,12 +1,13 @@
 ---
 Language: Cpp
 AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Right
 AlignConsecutiveAssignments: Consecutive
 AlignConsecutiveMacros: Consecutive
 AlignOperands: Align
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
-AllowShortFunctionsOnASingleLine: None
+AllowShortFunctionsOnASingleLine: Empty
 BinPackArguments: false
 BinPackParameters: false
 BraceWrapping:
@@ -27,7 +28,7 @@ BraceWrapping:
 BreakBeforeBinaryOperators: NonAssignment
 BreakBeforeBraces: Custom
 BreakStringLiterals: false
-ColumnLimit: 120
+ColumnLimit: 80
 IndentCaseLabels: true
 IndentPPDirectives: None
 IndentExternBlock: NoIndent
