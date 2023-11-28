@@ -1,8 +1,17 @@
 #include <iostream>
 // IndentPPDirectives
+#ifndef WIN32
+#define WIN32
+#endif
+
 #ifdef WIN32
 #include <windows.h>
 #endif
+
+#ifndef FALSE
+#define FALSE 0
+#define FALSE 0
+
 // SortIncludes
 #include "AnotherHeader.h"
 #include "MyHeader.h"
