@@ -1,0 +1,6 @@
+---
+Language: Cpp
+ColumnLimit: 120
+BinPackParameters: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AlignAfterOpenBracket: Align
