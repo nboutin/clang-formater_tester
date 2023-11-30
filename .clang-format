@@ -8,6 +8,7 @@ AlignOperands: Align
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortFunctionsOnASingleLine: Empty
+AlwaysBreakAfterReturnType: None
 BinPackArguments: false
 BinPackParameters: false
 BraceWrapping:
