@@ -1,6 +1,7 @@
 ---
 Language: Cpp
 ColumnLimit: 120
-BinPackParameters: false
-AllowAllParametersOfDeclarationOnNextLine: false
-AlignAfterOpenBracket: Align
+AllowShortEnumsOnASingleLine: true
+# BinPackParameters: false
+# AllowAllParametersOfDeclarationOnNextLine: false
+# AlignAfterOpenBracket: Align

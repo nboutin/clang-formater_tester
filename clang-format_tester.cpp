@@ -57,11 +57,7 @@ T foo(int aaaaaaaaaaaaaaaaaaaaa, int bbbbbbbbbbbbbbbbbbbbb)
 {}
 
 // AllowShortEnumsOnASingleLine
-enum : unsigned int
-{
-  AA = 0,
-  BB
-} myEnum;
+enum : unsigned int { AA = 0, BB } myEnum;
 
 // SpaceBeforeInheritanceColon
 class B : public E
@@ -254,3 +250,6 @@ uint8_t CRCC_CalculateCRC8_hook(const uint8* data,
                                 uint8* result,
                                 const uint8_t argument)
 {}
+
+// AllowShortEnumsOnASingleLine: true
+enum gpiod_id { a };
